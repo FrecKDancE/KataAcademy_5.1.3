@@ -15,8 +15,8 @@ new Swiper(".image-slider", {
 });
 
 const read_more = document.querySelector('.image-slider__read-more');
-const read_more_button = read_more.querySelector('.read-more__button');
-const read_more_image = read_more.querySelector('.read-more__image')
+const read_more_button = document.querySelector('.read-more__button');
+const read_more_image = document.querySelector('.read-more__image')
 
 
 read_more_button.addEventListener('click', function() {
